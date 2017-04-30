@@ -69,7 +69,7 @@ nav.navbar {
 }
 
 .main_img1 {
-background-image: url('../img/wood-2.jpg');
+background-image: url('../img2/weedWall.png');
 }
 
 .main_logo {
@@ -77,7 +77,7 @@ background-image: url('../img/wood-2.jpg');
 }
 
 .main_img2 {
-background-image: url('../img/restraunt-2.jpg');
+background-image: url('../img2/dabLogoV1Final.png');
 }
 
 .btn-danger {
@@ -96,53 +96,57 @@ border-color: transparent;
   color: #f7f7f7;
 }
 
+.p-text2 {
+  font-size: 4ems;
+  color: #f7f7f7;
+  background-color: rgba(55, 0, 0, 0.5);
+  border: 2px solid  rgba(22, 0, 0, 0.8);
+}
+
+.h1class {
+  font-size: 6ems;
+  color: #0a0a0a;
+}
+
 .main_img3 {
-  background-image: url('../img/farm-2.jpg');
+  background-image: url('../img2/dabsWall.jpg');
 }
 /*====carousel ends=====*/
 
-/*====Our Story======*/
-#our_story, #review {
+/*====live======*/
+#live, #merch {
   min-height: 600px;
 }
 
-.our_story_row{
+.live_row{
   margin-top: 30px;
 }
 
-.our_story {
+.live {
   font-family: 'Lobster',  serif;
   color: #f8512f;
   font-size: 6em;
 
 }
 
-.one_man {
+.live_text {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 2em;
   margin-top: 0;
 }
 
-.story-year {
-  font-weight: 700;
-  font-size: 15em;
-  z-index: -10;
-  position: absolute;
-  color: rgba(149, 147, 147, .2);
-  font-family: 'Playfair Display', serif;
-  margin-top: 0;
-}
 
-#our_story p {
+
+#live p {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
 }
 /*====Our Story ends======*/
 
 /*===review===*/
-#review {
-  background-image: url('../img/food_review.jpg');
+#merch {
+  background-image: url('../img2/waxWall2.jpeg');
   background-size: cover;
   background-attachment: fixed;
 }
